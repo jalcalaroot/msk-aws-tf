@@ -11,12 +11,6 @@ variable "cluster_name" {
   description = "indicar el nombre del cluster"
 }
 
-
-variable "vpc_id" {
-  type        = "string"
-  description = "indicar el id de la vpc"
-}
-
 variable "subnet_1" {
   type        = "string"
   description = "indicar id de la subnet_1"
